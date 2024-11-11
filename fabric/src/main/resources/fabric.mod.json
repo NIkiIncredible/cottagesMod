@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cottages",
+  "version": "${version}",
+  "name": "Cottages",
+  "description": "",
+  "authors": [
+    "Nehlen"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/cottages/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.nehlen.cottages.fabric.CottagesFabric"
+    ],
+    "client": [
+      "de.nehlen.cottages.fabric.client.CottagesFabricClient"
+    ]
+  },
+  "mixins": [
+    "cottages.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {}
+}
