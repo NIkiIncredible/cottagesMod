@@ -45,6 +45,25 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+
+    {
+      "weight": 1,
+      "element": {
+        "location": "cottages:cottage/extra/cottage_extra_pumpkin",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "cottages:cottage/extra/cottage_extra_farm",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
